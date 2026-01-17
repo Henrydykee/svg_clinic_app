@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 import '../../../../core/presentation/widgets/app_bar.dart';
 import '../../../../core/presentation/widgets/button.dart';
 import '../../../../core/presentation/widgets/router.dart';
