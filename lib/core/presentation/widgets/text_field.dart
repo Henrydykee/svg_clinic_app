@@ -2,8 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:savogue/core/platform/color.dart';
-import 'package:savogue/core/presentation/widgets/text_holder.dart';
+import 'package:savouge/core/presentation/widgets/text_holder.dart';
+
+import '../../platform/color.dart';
+
 
 class CustomTextField extends StatelessWidget {
   final String? title;

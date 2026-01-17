@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     _timer = Timer(Duration(seconds: 2), () {
       if (mounted) {
-        router.pushAndRemoveUntil(GetStartedScreen(), (route) => false);
+       // router.pushAndRemoveUntil(GetStartedScreen(), (route) => false);
       }
     });
   }

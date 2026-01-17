@@ -1,9 +1,10 @@
-import 'package:savogue/core/presentation/widgets/text_holder.dart';
-import 'package:savogue/core/presentation/widgets/router.dart';
-import 'package:savogue/core/resources/color.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:savouge/core/presentation/widgets/router.dart';
+import 'package:savouge/core/presentation/widgets/text_holder.dart';
 import '../../platform/color.dart';
+import '../../resources/color.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSize {
   final String? title;

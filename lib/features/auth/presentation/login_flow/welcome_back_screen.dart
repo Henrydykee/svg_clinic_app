@@ -1,12 +1,11 @@
-import 'package:savogue/core/presentation/widgets/app_bar.dart';
-import 'package:savogue/core/presentation/widgets/key_pad.dart';
-import 'package:savogue/core/presentation/widgets/pin_code_field.dart';
-import 'package:savogue/core/presentation/widgets/router.dart';
-import 'package:savogue/core/presentation/widgets/text_holder.dart';
-import 'package:savogue/core/utils/color.dart';
-import 'package:savogue/features/getting_started/get_started_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+
+import '../../../../core/presentation/widgets/app_bar.dart';
+import '../../../../core/presentation/widgets/key_pad.dart';
+import '../../../../core/presentation/widgets/pin_code_field.dart';
+import '../../../../core/presentation/widgets/text_holder.dart';
+import '../../../../core/resources/color.dart';
 
 class WelcomeBackScreen extends StatefulWidget {
   @override
@@ -65,7 +64,7 @@ class _WelcomeBackScreenState extends State<WelcomeBackScreen> {
                 Gap(10),
                 InkWell(
                   onTap: () {
-                    router.pushAndRemoveUntil(GetStartedScreen(), (route) => false);
+                  //  router.pushAndRemoveUntil(GetStartedScreen(), (route) => false);
                   },
                   child: Container(
                     decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: SavogueColor.light_orange),

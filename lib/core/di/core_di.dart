@@ -1,5 +1,5 @@
-import 'package:savogue/core/managers/local_storage_service.dart';
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:savouge/core/platform/storage/secured_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../data/memory/cache_helpers.dart';
 import '../data/network/network_config.dart';
@@ -7,9 +7,9 @@ import '../data/network/network_interceptor.dart';
 import '../data/network/network_service.dart';
 import '../data/network/network_service_impl.dart';
 import '../managers/device_manager.dart';
+import '../managers/local_storage_service.dart';
 import '../managers/remote_config_manager.dart';
 import '../platform/storage/secure_storage_impl.dart';
-import '../platform/storage/secured_storage.dart';
 import 'di_config.dart';
 
 Future<void> coreInjector() async {

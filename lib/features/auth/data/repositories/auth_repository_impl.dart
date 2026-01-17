@@ -1,12 +1,10 @@
-
-
-import 'package:savogue/features/auth/data/model/user_model.dart';
-
 import '../../../../core/utils/data/guarded_datasource_calls.dart';
 import '../../domain/repositories /auth_repository.dart';
 import '../datasources/auth_remote_datasource.dart';
 import '../model/create_user_model.dart';
 import '../model/kyc_status_model.dart';
+import '../model/user_model.dart';
+
 
 class AuthenticationRepositoryImpl implements AuthenticationRepository {
   // ignore: unused_field

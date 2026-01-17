@@ -1,15 +1,14 @@
-import 'package:savogue/core/presentation/widgets/app_bar.dart';
-import 'package:savogue/core/presentation/widgets/button.dart';
-import 'package:savogue/core/presentation/widgets/router.dart';
-import 'package:savogue/core/presentation/widgets/text_field.dart';
-import 'package:savogue/core/presentation/widgets/text_holder.dart';
-import 'package:savogue/core/presentation/widgets/web_view_screen.dart';
-import 'package:savogue/core/resources/string.dart';
-import 'package:savogue/core/utils/color.dart';
-import 'package:savogue/features/getting_started/get_started_screen.dart';
+
 import 'package:flutter/material.dart';
 
-import '../reset-password-flow/enter_email_screen.dart';
+import '../../../../core/presentation/widgets/app_bar.dart';
+import '../../../../core/presentation/widgets/button.dart';
+import '../../../../core/presentation/widgets/router.dart';
+import '../../../../core/presentation/widgets/text_field.dart';
+import '../../../../core/presentation/widgets/text_holder.dart';
+import '../../../../core/presentation/widgets/web_view_screen.dart';
+import '../../../../core/resources/color.dart';
+import '../../../../core/resources/string.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -35,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: CustomAppBar(
         showBackIcon: true,
-        onTap: () => router.push(GetStartedScreen()),
+        //onTap: () => router.push(GetStartedScreen()),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -110,7 +109,6 @@ class _LoginScreenState extends State<LoginScreen> {
                             color: SavogueColor.green,
                             size: 15,
                             fontWeight: FontWeight.w800,
-                            onTap: () => router.push(EnterEmailScreen()),
                           ),
                           TextHolder(
                             title: Strings.privacy_policy,

@@ -1,9 +1,11 @@
 
 
-import 'package:savogue/features/auth/domain/usecases/resend_verification_code.dart';
-import 'package:savogue/features/auth/domain/usecases/verify_bvn.dart';
-import 'package:savogue/features/auth/domain/usecases/verify_document.dart';
-import 'package:savogue/features/auth/domain/usecases/verify_email.dart';
+
+
+import 'package:savouge/features/auth/domain/usecases/resend_verification_code.dart';
+import 'package:savouge/features/auth/domain/usecases/verify_bvn.dart';
+import 'package:savouge/features/auth/domain/usecases/verify_document.dart';
+import 'package:savouge/features/auth/domain/usecases/verify_email.dart';
 
 import 'create_user.dart';
 import 'get_kyc_status.dart';
