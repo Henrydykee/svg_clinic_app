@@ -32,7 +32,9 @@
 //     super.dispose();
 //   }
 //
-//   _onPageChanged(int index) {
+//   _onPageChanged(int
+//
+//   index) {
 //     setState(() {
 //       _currentPage = index;
 //     });
