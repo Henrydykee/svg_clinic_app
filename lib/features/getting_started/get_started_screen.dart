@@ -12,7 +12,8 @@
 //
 // import 'slide_list.dart';
 //
-// class GetStartedScreen extends StatefulWidget {
+// class GetStartedScreen extends Sta
+//tefulWidget {
 //   GetStartedScreen({Key? key}) : super(key: key);
 //
 //   @override
