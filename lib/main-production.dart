@@ -39,7 +39,7 @@ class savogue extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             navigatorKey:  router.navigatorKey,
             theme: ThemeData(
-                fontFamily: 'avenir',
+                fontFamily: 'Sora',
                 useMaterial3: false,
                 appBarTheme: const AppBarTheme(systemOverlayStyle: SystemUiOverlayStyle.light),
             ),

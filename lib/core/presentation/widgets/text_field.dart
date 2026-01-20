@@ -86,7 +86,7 @@ class CustomTextField extends StatelessWidget {
           cursorColor: cursorColor ?? newprojectColor.grey_2,
           focusNode: currentFocusNode,
           inputFormatters: inputFormatters,
-          style: TextStyle(color: cursorColor, fontSize: 14, fontFamily: 'avenir'),
+          style: TextStyle(color: cursorColor, fontSize: 14, fontFamily: 'Sora'),
           onEditingComplete: () {
             FocusScope.of(context).requestFocus(nextFocusNode ?? FocusNode());
           },
@@ -103,9 +103,9 @@ class CustomTextField extends StatelessWidget {
             suffix: suffix,
             prefixText: prefixText,
             prefix: prefix,
-            prefixStyle: TextStyle(color: Colors.black, fontFamily: 'avenir'),
-            labelStyle: TextStyle(fontSize: 16, fontFamily: 'avenir'),
-            hintStyle: TextStyle(fontFamily: 'avenir'),
+            prefixStyle: TextStyle(color: Colors.black, fontFamily: 'Sora'),
+            labelStyle: TextStyle(fontSize: 16, fontFamily: 'Sora'),
+            hintStyle: TextStyle(fontFamily: 'Sora'),
             border: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.grey.withOpacity(0.1)),
                 borderRadius: BorderRadius.circular(3.0)),

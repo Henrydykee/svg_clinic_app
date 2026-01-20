@@ -50,9 +50,6 @@ dependencies:
   currency_text_input_formatter: 2.2.8
   webview_flutter: ^4.9.0
 
-
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -83,10 +80,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - assets/
-  - assets/images/
-  - assets/fonts/
+  assets:
+    - assets/
+    - assets/images/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -101,15 +97,19 @@ assets:
   # list giving the asset and other descriptors for the font. For
   # example:
 fonts:
-  - family: avenir
+  - family: Sora
     fonts:
-      - asset: assets/fonts/Avenir_Light.ttf
+      - asset: assets/font/Sora-Thin.ttf
+        weight: 100
+      - asset: assets/font/Sora-ExtraLight.ttf
+        weight: 200
+      - asset: assets/font/Sora-Light.ttf
         weight: 300
-      - asset: assets/fonts/Avenir_Regular.ttf
+      - asset: assets/font/Sora-Regular.ttf
         weight: 400
-      - asset: assets/fonts/Avenir_Book.ttf
-        weight: 500
-      - asset: assets/fonts/Avenir_Heavy.ttf
-        weight: 700
-      - asset: assets/fonts/Avenir_Black.ttf
+      - asset: assets/font/Sora-SemiBold.ttf
         weight: 600
+      - asset: assets/font/Sora-Bold.ttf
+        weight: 700
+      - asset: assets/font/Sora-ExtraBold.ttf
+        weight: 800

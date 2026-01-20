@@ -145,7 +145,7 @@ class newprojectKeyCell extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 32,
-                    fontFamily: "avenir",
+                    fontFamily: "Sora",
                     fontWeight: FontWeight.w700,
                     color: keyColor ?? Colors.black
                   ),

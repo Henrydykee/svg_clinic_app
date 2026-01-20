@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:savouge/core/utils/data/color_utils.dart';
+import 'package:savouge/features/onboarding/presentation/pages/onboarding_screen.dart';
 
 import '../../../../core/presentation/widgets/router.dart';
 import '../../../../core/utils/color.dart';
@@ -21,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     _timer = Timer(Duration(seconds: 2), () {
       if (mounted) {
-       // router.pushAndRemoveUntil(GetStartedScreen(), (route) => false);
+       router.pushAndRemoveUntil(OnboardingScreen(), (route) => false);
       }
     });
   }
@@ -36,16 +38,11 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: SavogueColor.deep_green,
-      body: Stack(
-        children: [
-          Image.asset(
-            "assets/images/splash_background.png",
-            width: MediaQuery.of(context).size.width,
-            fit: BoxFit.cover,
-          ),
-          Center(child: SvgPicture.asset("assets/images/cp_spalsh_image.svg",height: 150,))
-        ],
-      ),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        color: "#C7A054".toColor(),
+      )
     );
   }
 }

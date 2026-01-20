@@ -46,7 +46,7 @@ class CustomButtom extends StatelessWidget {
           color: isdisabled == true 
             ? newprojectColor.grey.withOpacity(0.5)
             : (btnColor ?? const Color(0xFFFD9C43)),
-          borderRadius: BorderRadius.circular(6),
+          borderRadius: BorderRadius.circular(30),
         ),
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 16),

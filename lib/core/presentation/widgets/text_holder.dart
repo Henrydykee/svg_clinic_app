@@ -40,7 +40,7 @@ class TextHolder extends StatelessWidget {
           color: color ?? Colors.black,
           fontSize: size ?? 16,
             height: fontHeight,
-          fontFamily: 'avenir',
+          fontFamily: 'Sora',
           fontWeight: fontWeight ?? FontWeight.w400,
             decoration: decoration
         ),

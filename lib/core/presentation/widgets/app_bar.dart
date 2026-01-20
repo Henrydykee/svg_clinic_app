@@ -21,12 +21,20 @@ class CustomAppBar extends StatelessWidget implements PreferredSize {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4),
       child: AppBar(
-        backgroundColor: SavogueColor.app_bar_color,
+        backgroundColor: color ?? Colors.white,
         centerTitle:   true,
         elevation: 0.0,
         leading: showBackIcon ? IconButton(
           onPressed: onTap ?? () => router.pop(),
-          icon: Icon(Icons.chevron_left, color: SavogueColor.grey,)
+          icon: SvgPicture.asset(
+            "assets/images/arrow-back.svg",
+            width: 24,
+            height: 24,
+            colorFilter: ColorFilter.mode(
+              SavogueColor.grey,
+              BlendMode.srcIn,
+            ),
+          ),
         ) : null,
         automaticallyImplyLeading: false,
         title: TextHolder(

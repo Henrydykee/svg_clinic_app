@@ -14,4 +14,5 @@ class SavogueColor {
   static const grey = Color(0xFF333333);
   static const grey_5 = Color(0xFFE0E0E0);
   static const grey_1 = Color(0xFF333333);
+  static const beige = Color(0xFFC7A054);
 }
