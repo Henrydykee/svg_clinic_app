@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:savouge/features/navbar/navbar.dart';
 import '../../../../core/presentation/widgets/app_bar.dart';
 import '../../../../core/presentation/widgets/button.dart';
 import '../../../../core/presentation/widgets/router.dart';
@@ -150,9 +151,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         btnColor: "#C5A35E".toColor(),
                         textColor: Colors.white,
                         onTap: () {
-                          if (_formKey.currentState?.validate() ?? false) {
-                            // TODO: Implement login logic
-                          }
+                          router.push( Navbar());
+                          // if (_formKey.currentState?.validate() ?? false) {
+                          //   // TODO: Implement login logic
+                          // }
                         },
                       ),
                       Gap(16),
