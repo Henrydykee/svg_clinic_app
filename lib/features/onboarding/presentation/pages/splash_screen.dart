@@ -6,7 +6,6 @@ import 'package:savouge/features/onboarding/presentation/pages/onboarding_screen
 
 import '../../../../core/presentation/widgets/router.dart';
 import '../../../../core/utils/color.dart';
-import '../../../../features/getting_started/get_started_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   SplashScreen({Key? key}) : super(key: key);
